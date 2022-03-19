@@ -1,2 +1,880 @@
+@media only screen and (max-width: 1300px) {
+  .header {
+    &-menu {
+      font-size: 14px;
+    }
+  }
+
+  .ms {
+    h2 {
+      font-size: 32px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+
+    .mb75 {
+      margin-bottom: 35px;
+    }
+  }
+
+  .ms-1 {
+    &-item {
+      &-title {
+        font-size: 36px;
+      }
+    }
+
+    &-video {
+      width: 280px;
+      height: 110px;
+    }
+
+    &-modal {
+      &-video {
+        svg {
+          top: 130px;
+          right: 80px;
+          width: 80px;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  .ms-2 {
+    &-title {
+      font-size: 32px;
+    }
+
+    &-list {
+      font-size: 18px;
+    }
+  }
+
+  .ms-3 {
+    margin-bottom: 35px;
+  }
+
+  .ms-4 {
+    margin-bottom: 35px;
+
+    &-faq {
+      &-question,
+      &-answer {
+        padding: 20px 35px;
+      }
+    }
+  }
+
+  .ms-5 {
+    margin-bottom: 35px;
+  }
+
+  .ms-3,
+  .ms-5 {
+    .swiper-wrapper {
+      margin-bottom: 50px;
+    }
+  }
+
+  .ms-sales {
+    &-item {
+      &-info {
+        svg {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .header {
+    font-size: 14px;
+
+    &-logo {
+      max-width: 180px;
+    }
+
+    &-contacts {
+      &-lbl {
+        margin-bottom: 10px;
+      }
+    }
+
+    &-leads {
+      div {
+        &:first-child {
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    &-whatsapp {
+      width: 50px;
+
+      span {
+        display: none;
+      }
+
+      svg {
+        margin-right: 0;
+      }
+    }
+
+    &-services_btn {
+      width: 160px;
+    }
+
+    &-menu {
+      & > li {
+        margin-right: 10px;
+      }
+    }
+
+    &-submenu_wrapper {
+      left: auto;
+      right: -50px;
+    }
+  }
+
+  .ms-4 {
+    &-order {
+      width: 280px;
+      height: 62px;
+      line-height: 62px;
+    }
+  }
+
+  .ms-contacts {
+    &-list {
+      margin-bottom: 35px;
+    }
+
+    &-item {
+      padding: 35px 15px;
+
+      &-lbl {
+        font-size: 16px;
+      }
+
+      &-val {
+        font-size: 20px;
+      }
+    }
+
+    &-soc {
+      a {
+        padding-left: 15px;
+        font-size: 18px;
+      }
+    }
+  }
+
+  .ms-content {
+    width: calc(100% - 220px);
+
+    &-title {
+      font-size: 22px;
+    }
+  }
+
+  .ms-price {
+    &-item {
+      font-size: 16px;
+      padding: 10px 0;
+
+      &-lbl,
+      &-val {
+        font-size: 18px;
+      }
+    }
+
+    &_info {
+      margin-bottom: 35px;
+      font-size: 18px;
+
+      svg {
+        margin-right: 50px;
+      }
+    }
+
+    &_btn {
+      max-width: 380px;
+      height: 65px;
+    }
+  }
+
+  .ms-menu {
+    ul {
+      font-size: 16px;
+    }
+  }
+
+  .ms-reviews {
+    .ms-3-review {
+      width: calc(25% - 15px);
+      margin-right: 20px;
+      margin-bottom: 25px;
+    }
+  }
+
+  .ms-sales {
+    &-item {
+
+      &.open {
+        .ms-sales-item-img {
+          height: 300px;
+        }
+      }
+
+      &-img {
+        height: 210px;
+      }
+
+      &-info {
+        min-height: auto;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .t_hide {
+    display: none;
+  }
+
+  .d_hide {
+    display: block;
+  }
+
+  .header {
+    &-menu_btn {
+      display: flex;
+    }
+
+    &-menu {
+      display: none;
+      text-align: center;
+
+      li {
+        margin-bottom: 10px;
+        margin-right: 0;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        &.header-menu-sub {
+          & > a {
+            display: none;
+          }
+        }
+
+        & > svg {
+          display: none;
+        }
+      }
+    }
+
+    &-submenu_wrapper {
+      display: block;
+      position: relative;
+      top: auto;
+      left: auto;
+      right: auto;
+      padding: 0;
+      width: auto;
+    }
+
+    &-submenu {
+      border-top: none;
+      box-shadow: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 10px;
+        text-transform: uppercase;
+      }
+    }
+
+    &-services {
+      padding: 40px;
+
+      &-item {
+        max-width: 200px;
+      }
+    }
+  }
+
+  .ms {
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      line-height: 30px;
+    }
+
+    &-flex {
+      margin-bottom: 10px;
+    }
+
+    &-link {
+      font-size: 14px;
+      padding: 0 15px;
+      height: 32px;
+      line-height: 30px;
+    }
+
+    &-back {
+      padding-left: 50px;
+
+      &-btn {
+        margin-top: -15px;
+
+        svg {
+          width: 35px;
+          height: 30px;
+        }
+      }
+    }
+  }
+
+  .ms-1 {
+    margin-bottom: 35px;
+
+    &-item {
+      height: 320px;
+
+      &-title {
+        font-size: 28px;
+        margin-bottom: 45px;
+      }
+
+      &-lead {
+        width: 190px;
+      }
+    }
+
+    &-video {
+      width: 220px;
+      height: 90px;
+      padding: 15px;
+
+      svg {
+        width: 64px;
+        height: 64px;
+        margin-right: 10px;
+      }
+    }
+
+    &-modal {
+      &-video {
+        svg {
+          top: 50px;
+          right: 50px;
+          width: 50px;
+        }
+      }
+    }
+  }
+
+  .ms-2 {
+    &-title {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+
+    .swiper-slide {
+      height: 320px;
+    }
+
+    &-info {
+      margin-top: 50px;
+      padding: 0 10px;
+    }
+
+    &-list {
+      font-size: 16px;
+    }
+  }
+
+  .ms-3 {
+    &-review {
+      font-size: 14px;
+
+      &-play {
+        width: 45px;
+        height: 45px;
+        bottom: 15px;
+        left: 15px;
+      }
+
+      &-img {
+        margin-bottom: 12px;
+      }
+
+      &-date {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .ms-4 {
+    &-faq {
+      margin-bottom: 20px;
+
+      &-answer,
+      &-question {
+        padding: 15px 20px;
+        font-size: 16px;
+      }
+
+      &-answer {
+        font-size: 14px;
+        padding-top: 0;
+      }
+    }
+
+    &-order {
+      font-size: 16px;
+      width: 220px;
+      height: 48px;
+      line-height: 48px;
+    }
+  }
+
+  .ms-5 {
+    &-spec {
+      &-info {
+        padding: 15px;
+        font-size: 14px;
+        height: auto;
+
+        &-lbl {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .ms-contacts {
+    &-list {
+      margin-bottom: 15px;
+    }
+
+    &-item {
+      padding: 15px;
+
+      img {
+        max-width: 35px;
+        margin-right: 10px;
+      }
+
+      &-lbl {
+        font-size: 14px;
+      }
+
+      &-val {
+        font-size: 16px;
+      }
+    }
+
+    &-soc {
+      margin-bottom: 35px;
+
+      a {
+        height: 60px;
+        font-size: 14px;
+
+        svg {
+          max-width: 35px;
+          width: auto;
+          height: auto;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  .ms-price_info {
+    padding: 0 25px;
+    font-size: 16px;
+
+    svg {
+      margin-right: 25px;
+    }
+  }
+
+  .ms-reviews {
+    .ms-3-review {
+      width: calc(33.33% - 14px);
+      margin-right: 20px;
+
+      &:nth-child(4n) {
+        margin-right: 20px;
+      }
+
+      &:nth-child(3n) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 768px) {
+  .m_hide {
+    display: none;
+  }
+
+  .header {
+    margin-bottom: 15px;
+
+    &-logo {
+      max-width: 135px;
+    }
+
+    &-menu_btn,
+    &-services_btn {
+      padding: 0 10px;
+      width: 120px;
+
+      & > svg {
+        margin-right: 10px;
+      }
+    }
+
+    &-menu_btn {
+      width: 110px;
+    }
+
+    &-menu {
+      &.active {
+        padding: 20px;
+      }
+    }
+
+    &-services {
+      padding: 20px;
+
+      &-item {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+
+        .__mb-8 {
+          margin-bottom: 20px !important;
+        }
+      }
+
+      .header-flex {
+        flex-wrap: wrap;
+        margin-bottom: 0 !important;
+
+        &:last-child {
+          .header-services-item:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      &-title {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .ms {
+    h2 {
+      font-size: 18px;
+      text-align: center;
+    }
+
+    .swiper {
+      &-pagination {
+        &-bullet {
+          margin-right: 10px;
+          width: 8px;
+          height: 8px;
+
+          &-active {
+            width: 14px;
+            height: 14px;
+          }
+        }
+      }
+    }
+
+    &-flex {
+      flex-direction: column;
+    }
+
+    &-link {
+      display: none;
+    }
+
+    &-ckeditor {
+      line-height: 20px;
+
+      p {
+        padding: 5px 0;
+      }
+
+      ul, ol {
+        li {
+          padding: 5px 5px 5px 20px;
+        }
+      }
+    }
+
+    .mb75 {
+      margin-bottom: 15px;
+    }
+  }
+
+  .ms-1 {
+    overflow: visible;
+
+    .swiper {
+      overflow: hidden;
+
+      &-next,
+      &-prev {
+        display: none;
+      }
+
+      &-pagination {
+        bottom: 40px;
+      }
+    }
+
+    &-item {
+      height: 270px;
+
+      &-info {
+        padding: 40px 10px 0;
+        top: 0;
+        transform: none;
+      }
+
+      &-title {
+        font-size: 18px;
+        margin-bottom: 35px;
+
+        br {
+          display: none;
+        }
+      }
+
+      &-lead {
+        width: 165px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        margin: 0 auto;
+      }
+    }
+
+    &-video {
+      width: 260px;
+      height: 55px;
+      font-size: 12px;
+      margin: 0 auto;
+      left: 0;
+      bottom: -25px;
+
+      svg {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+
+  .ms-2 {
+    margin-bottom: 15px;
+
+    &-list {
+      font-size: 14px;
+    }
+
+    &-title {
+      font-size: 18px;
+    }
+
+    .swiper-slide {
+      height: 280px;
+    }
+  }
+
+  .ms-3 {
+    margin-bottom: 15px;
+
+    .swiper-next,
+    .swiper-prev {
+      display: none;
+    }
+  }
+
+  .ms-4 {
+    margin-bottom: 15px;
+  }
+
+  .ms-3,
+  .ms-5 {
+    .swiper-wrapper {
+      margin-bottom: 35px;
+    }
+  }
+
+  .ms-5 {
+    margin-bottom: 15px;
+
+    .swiper-next,
+    .swiper-prev {
+      display: none;
+    }
+  }
+
+  .ms-contacts {
+    &-soc {
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+
+      li {
+        width: calc(50% - 6px);
+        margin-right: 12px;
+        margin-bottom: 12px;
+
+        &:nth-child(2n) {
+          margin-right: 0;
+        }
+      }
+    }
+
+    &-item {
+      width: 100%;
+      margin-right: 0;
+      align-items: flex-start;
+    }
+  }
+
+  .ms-back {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .ms-menu {
+    width: 100%;
+    margin-bottom: 15px;
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+        margin-bottom: 10px;
+        text-align: center;
+        margin-right: 25px;
+
+        &.active {
+          a:after {
+            right: -15px;
+          }
+        }
+      }
+    }
+  }
+
+  .ms-content {
+    width: 100%;
+
+    &-title {
+      font-size: 18px;
+    }
+  }
+
+  .ms-price {
+    &-item {
+      font-size: 14px;
+
+      &-lbl,
+      &-val {
+        font-size: 16px;
+      }
+    }
+
+    &_info {
+      font-size: 14px;
+      height: auto;
+      padding: 15px;
+      line-height: 1.2;
+      margin-bottom: 15px;
+
+      svg {
+        display: none;
+      }
+    }
+
+    &_btn {
+      font-size: 14px;
+    }
+  }
+
+  .ms-reviews {
+    .ms-3-review {
+      width: 100%;
+      max-width: 320px;
+      margin: 0 auto 15px;
+
+      &:nth-child(3n),
+      &:nth-child(4n) {
+        margin: 0 auto 15px;
+      }
+    }
+  }
+
+  .ms-sales {
+    &-item {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 15px;
+
+      &.open {
+        margin-bottom: 15px;
+
+        .ms-sales-item-img {
+          display: none;
+        }
+
+        & > div {
+          width: 100%;
+        }
+      }
+
+      &-info {
+        font-size: 16px;
+        padding: 20px;
+        min-height: auto;
+
+        &-date {
+          font-size: 14px;
+        }
+
+        svg {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+    &-back {
+      width: 220px;
+      height: 40px;
+      font-size: 14px;
+      line-height: 40px;
+    }
+  }
 }

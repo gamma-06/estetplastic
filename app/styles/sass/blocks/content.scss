@@ -1,7 +1,12 @@
+.d_hide {
+  display: none;
+}
+
 .w1300 {
   max-width: 1300px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .ms {
@@ -1052,6 +1057,7 @@
       height: 330px;
       background-repeat: no-repeat;
       background-size: cover;
+      background-position: center;
     }
 
     &-info {

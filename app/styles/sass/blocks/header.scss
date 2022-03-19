@@ -56,7 +56,8 @@
     }
   }
 
-  &-services_btn {
+  &-services_btn,
+  &-menu_btn {
     display: flex;
     align-items: center;
     padding: 0 25px;
@@ -137,9 +138,32 @@
     }
   }
 
+  &-menu_btn {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #D2D2D2;
+    width: 145px;
+    color: #000;
+
+    &:hover {
+      background-color: #fff;
+    }
+  }
+
   &-menu {
     display: flex;
     text-transform: uppercase;
+
+    &.active {
+      display: block;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #fff;
+      padding: 40px;
+      box-shadow: 0 0 22px 3px rgba(0, 0, 0, 0.1);
+    }
 
     & > li {
       margin-right: 12px;

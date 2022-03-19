@@ -8,6 +8,19 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector(".header-services_btn").addEventListener("click", () => {
       document.querySelector(".header-services_btn").classList.toggle("active")
       document.querySelector(".header-services").classList.toggle("active")
+
+      document.querySelector(".header-menu_btn").classList.remove("active")
+      document.querySelector(".header-menu").classList.remove("active")
+    })
+  }
+
+  if (document.querySelector(".header-menu_btn")) {
+    document.querySelector(".header-menu_btn").addEventListener("click", () => {
+      document.querySelector(".header-menu_btn").classList.toggle("active")
+      document.querySelector(".header-menu").classList.toggle("active")
+
+      document.querySelector(".header-services_btn").classList.remove("active")
+      document.querySelector(".header-services").classList.remove("active")
     })
   }
 
@@ -29,6 +42,17 @@ document.addEventListener('DOMContentLoaded', () => {
   new Swiper('.ms-2 .swiper', {
     slidesPerView: 3,
     spaceBetween: 0,
+    breakpoints: {
+      320: {
+        slidesPerView: 1
+      },
+      550: {
+        slidesPerView: 2
+      },
+      768: {
+        slidesPerView: 3
+      }
+    }
   });
 
   let ms_3_swiper = new Swiper('.ms-3 .swiper', {
@@ -36,7 +60,25 @@ document.addEventListener('DOMContentLoaded', () => {
     spaceBetween: 55,
     pagination: {
       el: '.swiper-pagination',
-    }
+    },
+    breakpoints: {
+      1300: {
+        spaceBetween: 55
+      },
+      1024: {
+        spaceBetween: 25
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 15,
+      },
+      550: {
+        slidesPerView: 2
+      },
+      320: {
+        slidesPerView: 1
+      }
+    },
   });
   if (document.querySelector('.ms-3 .swiper-prev'))
     document.querySelector('.ms-3 .swiper-prev').addEventListener("click", () => ms_3_swiper.slidePrev())
@@ -52,7 +94,25 @@ document.addEventListener('DOMContentLoaded', () => {
     spaceBetween: 35,
     pagination: {
       el: '.swiper-pagination',
-    }
+    },
+    breakpoints: {
+      1300: {
+        spaceBetween: 35
+      },
+      1200: {
+        spaceBetween: 25
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 15,
+      },
+      550: {
+        slidesPerView: 2
+      },
+      320: {
+        slidesPerView: 1
+      }
+    },
   });
   if (document.querySelector('.ms-5 .swiper-prev'))
     document.querySelector('.ms-5 .swiper-prev').addEventListener("click", () => ms_5_swiper.slidePrev())
