@@ -675,6 +675,13 @@
 }
 
 .ms-certificates {
+  .swiper-slide {
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
   .swiper-pagination {
     display: none;
   }
@@ -789,7 +796,6 @@
     top: -34px;
     left: 35px;
     background-color: #fff;
-    padding-right: 20px;
   }
 
   &-icon {
@@ -1068,6 +1074,7 @@
       font-size: 24px;
       font-weight: 600;
       color: #fff;
+      overflow: hidden;
 
       svg {
         height: 100%;

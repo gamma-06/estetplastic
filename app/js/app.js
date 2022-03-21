@@ -138,7 +138,18 @@ document.addEventListener('DOMContentLoaded', () => {
     spaceBetween: 15,
     pagination: {
       el: '.swiper-pagination',
-    }
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 3
+      },
+      550: {
+        slidesPerView: 2
+      },
+      320: {
+        slidesPerView: 1
+      }
+    },
   });
 
   if (document.querySelector('.ms-gallery .swiper-prev'))
@@ -151,7 +162,21 @@ document.addEventListener('DOMContentLoaded', () => {
     spaceBetween: 15,
     pagination: {
       el: '.swiper-pagination',
-    }
+    },
+    breakpoints: {
+      1150: {
+        slidesPerView: 4
+      },
+      768: {
+        slidesPerView: 3
+      },
+      550: {
+        slidesPerView: 2
+      },
+      320: {
+        slidesPerView: 1
+      }
+    },
   });
 
   document.querySelectorAll(".ms-href ul li a").forEach(el => {
@@ -190,7 +215,21 @@ document.addEventListener('DOMContentLoaded', () => {
     spaceBetween: 15,
     pagination: {
       el: '.swiper-pagination',
-    }
+    },
+    breakpoints: {
+      1150: {
+        slidesPerView: 4
+      },
+      768: {
+        slidesPerView: 3
+      },
+      550: {
+        slidesPerView: 2
+      },
+      320: {
+        slidesPerView: 1
+      }
+    },
   });
 
   if (document.querySelector('.ms-operations .swiper-prev'))
